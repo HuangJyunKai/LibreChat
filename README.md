@@ -47,6 +47,13 @@
 </p>
 
 
+# ✨ How to Run localhost Ollama
+  edit `sudo nano /etc/systemd/system/ollama.service`
+  add `Environment="OLLAMA_HOST=0.0.0.0:11434"`
+  restart `sudo systemctl daemon-reload`
+  `sudo systemctl restart ollama`
+  
+
 # ✨ Features
 
 - 🖥️ **UI & Experience** inspired by ChatGPT with enhanced design and features
