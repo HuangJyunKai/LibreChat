@@ -48,10 +48,11 @@
 
 
 # ✨ How to Run localhost Ollama
-  edit `sudo nano /etc/systemd/system/ollama.service`
-  add `Environment="OLLAMA_HOST=0.0.0.0:11434"`
-  restart `sudo systemctl daemon-reload`
-  `sudo systemctl restart ollama`
+  Examples are in .env and docker-compose.override.yml
+  - edit `sudo nano /etc/systemd/system/ollama.service`
+  - add `Environment="OLLAMA_HOST=0.0.0.0:11434"`
+  - restart `sudo systemctl daemon-reload`
+  - restart `sudo systemctl restart ollama`
   
 
 # ✨ Features
